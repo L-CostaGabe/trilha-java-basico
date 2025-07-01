@@ -8,12 +8,15 @@ public class Condicional {
         var name = scanner.next();
         System.out.println("Informe sua idade: ");
         var age = scanner.nextInt();
+        System.out.println("Você é emancipado? (s/n)");
+        var isEmancipated = scanner.next().equalsIgnoreCase("s");
 
-        if (age >= 18) {
-            System.out.printf("%s, você tem %s anos, você pode dirigir.", name, age);
-        } else {
-            System.out.printf("% você tem %s anos, você nãopode dirigir.", name, age);
-        }
+        var CanDrive = (age >= 18) || (age >= 16 && isEmancipated);
+        var message = CanDrive ? 
+                name + ", você pode dirigir. \n" : 
+                name + ", você não pode dirigir. \n";
+
+        System.out.println(message);        
         System.out.println("Fim da execução!");
     }
 }
