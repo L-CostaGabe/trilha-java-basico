@@ -1,18 +1,15 @@
-## Getting Started
+## 📘 Estudos em Java: Estruturas de Controle
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Atualmente estou aprendendo **Estruturas de Controle** em Java, focando nos principais comandos de decisão que controlam o fluxo dos programas.
 
-## Folder Structure
+### Conteúdos praticados até agora:
+- `if`, `else` e operadores lógicos
+- Operador ternário (`? :`)
+- `switch case` tradicional
+- `switch expression` com `->` e `yield` (modelo enxuto)
 
-The workspace contains two folders by default, where:
+### Arquivos criados:
+- `Condicional.java` — verificação de maioridade com ou sem emancipação
+- `SwitchCase.java` — identificação do dia da semana com base em número
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> Estou organizando meus exemplos dentro da pasta `src/` para manter o aprendizado limpo e estruturado.

@@ -13,8 +13,8 @@ public class Condicional {
 
         var CanDrive = (age >= 18) || (age >= 16 && isEmancipated);
         var message = CanDrive ? 
-                name + ", você pode dirigir. \n" : 
-                name + ", você não pode dirigir. \n";
+                name + ", você pode dirigir. " : 
+                name + ", você não pode dirigir. ";
 
         System.out.println(message);        
         System.out.println("Fim da execução!");
