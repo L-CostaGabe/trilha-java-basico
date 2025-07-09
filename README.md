@@ -12,4 +12,3 @@ Repositório destinado ao registro dos meus estudos em `Java`, com foco no desen
 - Operadores: aritméticos, relacionais e lógicos
 - Exercícios com lógica de programação
 
-⚠️ *Este repositório está em constante atualização conforme avanço nos estudos e novos conceitos forem aprendidos.*
