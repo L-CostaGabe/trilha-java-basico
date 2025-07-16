@@ -1,4 +1,4 @@
-package modulo03_orientacao_objetos.exercicios.pet_shop;
+package pet_shop;
 
 public class PetMachine {
 
