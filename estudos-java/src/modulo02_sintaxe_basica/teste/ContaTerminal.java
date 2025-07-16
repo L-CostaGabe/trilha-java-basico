@@ -1,3 +1,4 @@
+package teste;
 import java.util.Scanner;
 
 public class ContaTerminal {
@@ -23,7 +24,7 @@ public class ContaTerminal {
         System.out.println("Saldo: ");
         var balance = scanner.nextFloat();
 
-        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %s e seu saldo R$%s já está disponível para saque", name, bank, userNumber, balance);
+        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %s e seu saldo R%s já está disponível para saque", name, bank, userNumber, balance);
 
 
     }

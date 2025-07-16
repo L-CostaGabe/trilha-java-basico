@@ -22,9 +22,9 @@ public class ParesImparesDesc {
 
         for (int i = segundo; i >= primeiro; i--) {
             var par = i % 2 == 0;
-            if (escolha.equals("par") && par) {
+            if (escolha.equalsIgnoreCase("par") && par) {
                 System.out.println(i);
-            } else if (escolha.equals("impar") && !par) {
+            } else if (escolha.equalsIgnoreCase("impar") && !par) {
                 System.out.println(i);
             }
         }
